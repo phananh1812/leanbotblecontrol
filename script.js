@@ -269,6 +269,7 @@ annyang.addCommands({
     'light off' : ledOff,
     'open' : gripperOpen,
     'close': gripperClose,
+    'Close.': gripperClose,
     'turn left':Left,
     'turn right':Right,
     'forward': Forward,
