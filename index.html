@@ -94,12 +94,15 @@
         <button class="control-button button-BackRight"    onclick="BackRight()"></button>
     </div> 
   </div>
-    <!-- <div class="row"> -->
+    <div class="row">
         <div class="speed">
             <img src="speed.png" alt="Speed" id="image">
             <input type="range" id="speed-slider" min="0" max="9" value="5" step="1">
             <div class="speed-value" id="display-speed"><strong>Speed: </strong><span id="speed-value">5</span></div>
         </div>
+    </div>
+    
+    <div class="row">
         <div class= "mic no-influence">
             <button class="button" onclick="toggleListen()">
                 <img id="micImage" src="micoff.png" alt="Mic Off">
@@ -107,7 +110,7 @@
             <br>
             <div id="spokenCommand"></div>
         </div>
-    <!-- </div> -->
+    </div>
     <br>
     <!-- <p id="OpenlinkCode"><a href="https://git.pythaverse.space/leanbot/Examples/blob/master/02_Demo/Leanbot_demo_v3_Bluetooth.ino">Leanbot Code</a></p> -->
 </body>
