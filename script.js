@@ -266,17 +266,38 @@ function moveturnRight(angle) {
 
 annyang.addCommands({
     'light on' : ledOn,
+    'Light on.' : ledOn,
+
     'light off' : ledOff,
+    'Light off.' : ledOff,
+
     'open' : gripperOpen,
+    'Open.' : gripperOpen,
+
     'close': gripperClose,
     'Close.': gripperClose,
+
     'turn left':Left,
+    'Turn left.':Left,
+
     'turn right':Right,
+    'Turn right.':Right,
+
     'forward': Forward,
+    'Forward.': Forward,
+
     'backward': Backward,
+    'Backward.': Backward,
+
     'sound on' : hornOn,
+    'Sound on.' : hornOn,
+
     'sound off' : hornOff,
+    'Sound off.' : hornOff,
+
     'stop': Stop,
+    'Stop.': Stop,
+    
     // 'close the door': CloseDoor,
     // 'open the door': OpenDoor,
     // 'go to field one': Feild1,
