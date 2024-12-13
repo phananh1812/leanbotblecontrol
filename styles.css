@@ -94,10 +94,9 @@ footer {
         width: 100%;
     }
     .speed{
-        /* width:50%;
-        margin-left:auto; 
-        margin-top:20px; */
-        place-items: center;
+        width:50%;
+        /* margin-left:auto;  */
+        margin-top:20px;
     }
     .mic{
         width:50%;
@@ -107,7 +106,6 @@ footer {
         position: fixed;
         width:50%;
         margin-bottom: 90px;
-        justify-items: center;
     }
     .speed-value{
         margin-bottom:9px
@@ -146,8 +144,8 @@ footer {
     }
     .no-influence {
         position: fixed;
-        bottom: 5vh;
-        /* margin-bottom: 25px; */
+        bottom: 80px;
+        margin-bottom: 25px;
     }
     #OpenlinkCode {
         margin-top:30px;
@@ -207,7 +205,7 @@ footer {
 .button-Left::before {
     content: "";
     display: inline-block;
-    width: 30px; /* Đặt kích thước của hình ảnh tùy thuộc vào yêu cầu của bạn */
+    width: 30px; 
     height: 30px;
     background-image: url('image/arrow.png'); /* Đặt đường dẫn đến hình ảnh của bạn */
     background-size: cover; /* Điều này giúp ảnh kích thước đầy đủ trong phần đối tượng */
@@ -217,7 +215,7 @@ footer {
 .button-Right::before {
     content: "";
     display: inline-block;
-    width: 30px; /* Đặt kích thước của hình ảnh tùy thuộc vào yêu cầu của bạn */
+    width: 30px; 
     height: 30px;
     background-image: url('image/arrow.png'); /* Đặt đường dẫn đến hình ảnh của bạn */
     background-size: cover; /* Điều này giúp ảnh kích thước đầy đủ trong phần đối tượng */
@@ -226,7 +224,7 @@ footer {
 .button-Forward::before {
     content: "";
     display: inline-block;
-    width: 30px; /* Đặt kích thước của hình ảnh tùy thuộc vào yêu cầu của bạn */
+    width: 30px; 
     height: 30px;
     background-image: url('image/arrow.png'); /* Đặt đường dẫn đến hình ảnh của bạn */
     background-size: cover; /* Điều này giúp ảnh kích thước đầy đủ trong phần đối tượng */
@@ -236,7 +234,7 @@ footer {
 .button-Backward::before {
     content: "";
     display: inline-block;
-    width: 30px; /* Đặt kích thước của hình ảnh tùy thuộc vào yêu cầu của bạn */
+    width: 30px; 
     height: 30px;
     background-image: url('image/arrow.png'); /* Đặt đường dẫn đến hình ảnh của bạn */
     background-size: cover; /* Điều này giúp ảnh kích thước đầy đủ trong phần đối tượng */
@@ -248,7 +246,7 @@ footer {
 .button-ForwardRight::before {
     content: "";
     display: inline-block;
-    width: 30px; /* Đặt kích thước của hình ảnh tùy thuộc vào yêu cầu của bạn */
+    width: 30px; 
     height: 30px;
     background-image: url('image/arrow.png'); /* Đặt đường dẫn đến hình ảnh của bạn */
     background-size: cover; /* Điều này giúp ảnh kích thước đầy đủ trong phần đối tượng */
@@ -257,7 +255,7 @@ footer {
 .button-ForwardLeft::before{
     content: "";
     display: inline-block;
-    width: 30px; /* Đặt kích thước của hình ảnh tùy thuộc vào yêu cầu của bạn */
+    width: 30px; 
     height: 30px;
     background-image: url('image/arrow.png'); /* Đặt đường dẫn đến hình ảnh của bạn */
     background-size: cover; /* Điều này giúp ảnh kích thước đầy đủ trong phần đối tượng */
@@ -266,7 +264,7 @@ footer {
 .button-BackRight::before {
     content: "";
     display: inline-block;
-    width: 30px; /* Đặt kích thước của hình ảnh tùy thuộc vào yêu cầu của bạn */
+    width: 30px; 
     height: 30px;
     background-image: url('image/arrow.png'); /* Đặt đường dẫn đến hình ảnh của bạn */
     background-size: cover; /* Điều này giúp ảnh kích thước đầy đủ trong phần đối tượng */
@@ -275,7 +273,7 @@ footer {
 .button-BackLeft::before{
     content: "";
     display: inline-block;
-    width: 30px; /* Đặt kích thước của hình ảnh tùy thuộc vào yêu cầu của bạn */
+    width: 30px; 
     height: 30px;
     background-image: url('image/arrow.png'); /* Đặt đường dẫn đến hình ảnh của bạn */
     background-size: cover; /* Điều này giúp ảnh kích thước đầy đủ trong phần đối tượng */
