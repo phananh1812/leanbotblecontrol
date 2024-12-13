@@ -292,42 +292,7 @@ const commands = {
     'sound on': hornOn,
     'sound off': hornOff,
     'stop': Stop
-  };
-
-// annyang.addCommands({
-//     'light on' : ledOn,
-//     'Light on.' : ledOn,
-
-//     'light off' : ledOff,
-//     'Light off.' : ledOff,
-
-//     'open' : gripperOpen,
-//     'Open.' : gripperOpen,
-
-//     'close': gripperClose,
-//     'Close.': gripperClose,
-
-//     'turn left':Left,
-//     'Turn left.':Left,
-
-//     'turn right':Right,
-//     'Turn right.':Right,
-
-//     'forward': Forward,
-//     'Forward.': Forward,
-
-//     'backward': Backward,
-//     'Backward.': Backward,
-
-//     'sound on' : hornOn,
-//     'Sound on.' : hornOn,
-
-//     'sound off' : hornOff,
-//     'Sound off.' : hornOff,
-
-//     'stop': Stop,
-//     'Stop.': Stop,
-// });
+};
 
 annyang.addCallback('result', function(phrases) {
     document.getElementById('spokenCommand').innerHTML = 'You said: ' + phrases[0];
