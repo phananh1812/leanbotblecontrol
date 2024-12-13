@@ -341,6 +341,6 @@ function toggleListen() {
 
 function updateMicImage() {
     const micImage = document.getElementById("micImage");
-    micImage.src = isListening ? "micron.png" : "micoff.png";
+    micImage.src = isListening ? "image/micron.png" : "image/micoff.png";
     micImage.alt = isListening ? "Mic On" : "Mic Off";
   }
