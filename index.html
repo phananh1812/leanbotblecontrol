@@ -11,7 +11,7 @@
 <body>
     <nav class="navbar" style="padding: 0px 0px;">
         <button class="btn btn-primary-scan" id="toggleButton" onclick="toggleFunction()" style="padding: 0px 0px">
-            <img src="ble_logo.png" alt="Scan Icon"><span id="buttonText"><strong>Scan</strong></span>  
+            <img src="image/ble_logo.png" alt="Scan Icon"><span id="buttonText"><strong>Scan</strong></span>  
         </button>
         <a class="navbar-brand center-text" href="#" id="navbarTitle" style="color: rgb(218, 79, 79)"><strong>SCAN to connect</strong></a>
         <div class="info-container">
@@ -33,35 +33,35 @@
     <div class="row" style="margin:0px">
         <div class="button-container">
             <button class="button" onclick="ledOff()">
-                <img src="ledOff.png" alt="Led off">
+                <img src="image/ledOff.png" alt="Led off">
             </button>
             <br>
             <span id="ledOffText"></span>
         </div>
         <div class="button-container">        
-        <button class="button" onclick="gripperOpen()"><img src="gripopen.png" alt="Gripper Open"></button>
+        <button class="button" onclick="gripperOpen()"><img src="image/gripopen.png" alt="Gripper Open"></button>
         <br>
         <span id="OpenText" ></span>
         </div>
         <div class="button-container">        
-        <button class="button" onclick="hornOff()"><img src="audioOff.png" alt="Horn Off"></button>
+        <button class="button" onclick="hornOff()"><img src="image/audioOff.png" alt="Horn Off"></button>
         <br>
         <span id="MuteText"></span>
         </div>
     </div>
     <div class="row" style="margin:0px;">
         <div class="button-container">       
-        <button class="button" onclick="ledOn()"><img src="ledOn.png" alt="Led On"></button>
+        <button class="button" onclick="ledOn()"><img src="image/ledOn.png" alt="Led On"></button>
         <br>
         <span id="ledOnText" ></span>
         </div>
         <div class="button-container">        
-        <button class="button" onclick="gripperClose()"><img src="gripclose.png" alt="Gripper Close"></button>
+        <button class="button" onclick="gripperClose()"><img src="image/gripclose.png" alt="Gripper Close"></button>
         <br>
         <span id="CloseText" ></span>
         </div>
         <div class="button-container">        
-        <button class="button" onclick="hornOn()"><img src="audioOn.png" alt="Horn On"></button>
+        <button class="button" onclick="hornOn()"><img src="image/audioOn.png" alt="Horn On"></button>
         <br>
         <span id="UnmuteText"></span>
         </div>
@@ -96,7 +96,7 @@
   </div>
     <div class="row" style="display: flex; justify-content: center;">
         <div class="speed" style="text-align: center;">
-            <img src="speed.png" alt="Speed" id="image">
+            <img src="image/speed.png" alt="Speed" id="image">
             <input type="range" id="speed-slider" min="0" max="9" value="5" step="1">
             <div class="speed-value" id="display-speed"><strong>Speed: </strong><span id="speed-value">5</span></div>
         </div>
